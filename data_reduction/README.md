@@ -15,4 +15,7 @@
   #hif_makeimlist(specmode='repBW')
   #hif_makeimages(pipelinemode="automatic")
 ```
-
+3. Continuum subtraction manually
+4. imaging the '.ms' files (tclean). {\it This step can be used under mpicasa}
+   `mpicasa -n 40 /opt/casa-pipeline-release-5.6.1-8.el7/bin/casa`
+5. 
