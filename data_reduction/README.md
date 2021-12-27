@@ -17,5 +17,6 @@
 ```
 3. continuum subtraction manually (copy .ms files into contsub/ & cont_unsub)
 4. imaging the '.ms' files (tclean). ***This step can be used under mpicasa.***
+
    `mpicasa -n 40 /opt/casa-pipeline-release-5.6.1-8.el7/bin/casa`
-5. 
+
