@@ -21,9 +21,9 @@
   * Generate continuum images from line-free region (tclean) in the cont_unsub.ms
   * Run sources-finder code and do photometry
   
-## 4. Generate mom0 map (copy .ms files into contsub/ & cont_unsub)
-### 4.1. Subtract continuum from both expected/unexpected emission-line channels.
-### 4.2. Generate mom0 maps from emission-line region (tclean) in the ***cont_sub.ms***.
+4. Generate mom0 map (copy .ms files into contsub/ & cont_unsub)
+  * Subtract continuum from both expected/unexpected emission-line channels.
+  * Generate mom0 maps from emission-line region (tclean) in the ***cont_sub.ms***.
 
-## 5. Tclean can be performed in parallel mode.
+5. Tclean can be performed in parallel mode.
    `mpicasa -n 40 /opt/casa-pipeline-release-5.6.1-8.el7/bin/casa`
