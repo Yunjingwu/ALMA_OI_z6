@@ -2,7 +2,6 @@
 
 1. move 'member.*.casa_piperestorescript.py' out to the 'script/' folder 
 ============
-
 2. remove commends used to substract the continuum from '*casa_pipescript.py' (e.g. )
 ```
   #hif_makeimlist(specmode='mfs')
