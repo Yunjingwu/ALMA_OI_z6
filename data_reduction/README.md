@@ -26,4 +26,6 @@
   * Generate mom0 maps from emission-line region (tclean) in the ***cont_sub.ms***.
 
 5. Tclean can be performed in parallel mode.
-   `mpicasa -n 40 /opt/casa-pipeline-release-5.6.1-8.el7/bin/casa`
+```
+  mpicasa -n 40 /opt/casa-pipeline-release-5.6.1-8.el7/bin/casa
+```
