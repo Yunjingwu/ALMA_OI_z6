@@ -15,17 +15,19 @@
   #hif_makeimlist(specmode='repBW')
   #hif_makeimages(pipelinemode="automatic")
 ```
-3. Generate continuum image (copy .ms files into contsub/ & cont_unsub/)
-  * ***Tentatively*** subtract continuum with excluding expected emission line channels.
+3. Find emission-line channels:
+  * ***Tentatively*** subtract continuum from both expected/unexpected emission-line channels.
   * Finding emission-line channels (Expect location and random interlopers).
+
+4. Generate continuum image (copy .ms files into contsub/ & cont_unsub/)
   * Generate continuum images from line-free region (tclean) in the cont_unsub.ms
   * Run sources-finder code and do photometry
   
-4. Generate mom0 map (copy .ms files into contsub/ & cont_unsub/)
+5. Generate mom0 map (copy .ms files into contsub/ & cont_unsub/)
   * Subtract continuum from both expected/unexpected emission-line channels.
   * Generate mom0 maps from emission-line region (tclean) in the ***cont_sub.ms***.
 
-5. Tclean can be performed in parallel mode.
+6. Tclean can be performed in parallel mode.
 ```
   mpicasa -n 40 /opt/casa-pipeline-release-5.6.1-8.el7/bin/casa
 ```
