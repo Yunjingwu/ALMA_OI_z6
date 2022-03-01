@@ -15,13 +15,13 @@
   #hif_makeimlist(specmode='repBW')
   #hif_makeimages(pipelinemode="automatic")
 ```
-3. Generate continuum image (copy .ms files into contsub/ & cont_unsub)
+3. Generate continuum image (copy .ms files into contsub/ & cont_unsub/)
   * ***Tentatively*** subtract continuum with excluding expected emission line channels.
   * Finding emission-line channels (Expect location and random interlopers).
   * Generate continuum images from line-free region (tclean) in the cont_unsub.ms
   * Run sources-finder code and do photometry
   
-4. Generate mom0 map (copy .ms files into contsub/ & cont_unsub)
+4. Generate mom0 map (copy .ms files into contsub/ & cont_unsub/)
   * Subtract continuum from both expected/unexpected emission-line channels.
   * Generate mom0 maps from emission-line region (tclean) in the ***cont_sub.ms***.
 
