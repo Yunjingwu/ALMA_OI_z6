@@ -17,7 +17,7 @@
 ```
 3. Generate continuum image (copy .ms files into contsub/ & cont_unsub)
   * ***Tentatively*** subtract continuum with excluding expected emission line channels.
-  * Finding emission-line channels (Expect location and found random interlopers).
+  * Finding emission-line channels (Expect location and random interlopers).
   * Generate continuum images from line-free region (tclean) in the cont_unsub.ms
   * Run sources-finder code and do photometry
   
